@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.container {
+    background-color: hsl(0, 0%, 100%);
+    padding:17px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.container p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container h3 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text {
+    padding: 7px 17px;
+    word-break: keep-all;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
